@@ -9,7 +9,7 @@
 //Base de datos de nombres ingresados.
 let nombreIngresado = [];
 
-function agregarAmigo() {
+function agregarAmigo(){
 
         const amigoIngresado = document.getElementById("amigo");
         const nombre = amigoIngresado.value.trim();
@@ -29,7 +29,7 @@ function agregarAmigo() {
 function actualizarLista(){
      const lista = document.getElementById("listaAmigos");
      lista.innerHTML = "";
-     nombreIngresado.forEach((nombre, index)=> {
+     nombreIngresado.forEach((nombre)=> {
         const li = document.createElement("li");
         li.textContent = nombre;
         lista.appendChild(li);
@@ -37,6 +37,7 @@ function actualizarLista(){
 
 
 }
+
 
 // Funcion para sortear los nombres ingresados aleatoriamente
 function sortearAmigo(){
