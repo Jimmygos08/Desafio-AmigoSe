@@ -17,10 +17,10 @@ function agregarAmigo() {
         if (nombre) {
             nombreIngresado.push(nombre);
             
-            input.value = ""; //limpiara la caja donde se ingresan los nombres
+            amigoIngresado.value = ""; //limpiara la caja donde se ingresan los nombres
             actualizarLista();
         }else{
-            alert("Ingrese un nombre valido 1");
+            alert("Ingrese un nombre valido.");
         }
 
 }
