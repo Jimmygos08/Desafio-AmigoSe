@@ -26,6 +26,7 @@ function agregarAmigo(){
 
 }
 
+
 // Funcion para actualizar la lista en pantalla
 function actualizarLista(){
      const lista = document.getElementById("listaAmigos");
@@ -50,6 +51,21 @@ function sortearAmigo(){
      const listaAmigos = Math.floor(Math.random() * nombreIngresado.length);
      const nombreGanador = nombreIngresado[listaAmigos];
      document.getElementById("resultado").textContent = "El amigo ganador es: " + nombreGanador;
+     document.getElementById('reiniciar').removeAttribute('disabled');
+
+
+}
+
+//funcion para reiniciar el sorteo
+function reiniciarSorteo(){
+    nombreIngresado = [];//vaciar la lista de nombres
+    document.getElementById("listaAmigos").innerHTML = "";//Limpiar la lista.
+    document.getElementById("resultado").textContent = "";//Limpiar el resultado.
+    
+   //desabilita boton 
+    document.querySelector('#reiniciar').setAttribute('disabled','true');
+
+
 
 
 }
