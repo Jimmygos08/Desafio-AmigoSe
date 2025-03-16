@@ -1,4 +1,5 @@
-// El principal objetivo de este desafío es fortalecer tus habilidades en lógica de programación. Aquí deberás desarrollar la lógica para resolver el problema.
+// El principal objetivo de este desafío es fortalecer tus habilidades en lógica de programación. 
+// Aquí deberás desarrollar la lógica para resolver el problema.
 
 // Requerimientos de alura, deben poder ingresar nombres, realizar un sorteo y arrojar un nombre aleatorio quien sera el amigo secreto.
 
