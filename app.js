@@ -53,11 +53,7 @@ function sortearAmigo(){
      document.getElementById("resultado").textContent = "El amigo ganador es: " + nombreGanador;
      document.getElementById('reiniciar').removeAttribute('disabled');
 
-    
-
 }
-
-
 
 //funcion para reiniciar el sorteo
 function reiniciarSorteo(){
@@ -67,8 +63,4 @@ function reiniciarSorteo(){
     
    //desabilita boton 
     document.querySelector('#reiniciar').setAttribute('disabled','true');
-
-
-
-
 }
